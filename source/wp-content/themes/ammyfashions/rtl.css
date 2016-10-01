@@ -1,0 +1,21 @@
+/*
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+See http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+
+@import url("../harveststore/rtl.css");
+
+
+.header_cart { float: left; }
+.header-main {   text-align: left;}
+
+.menu-toggle {text-align:right;}
+
+.header-search {left: 90px; right: auto;}
+.header_logout {left: 45px; right: auto;}
+
+.menu-toggle:before {left:0; text-align: left;}
+
+

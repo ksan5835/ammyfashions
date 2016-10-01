@@ -1,0 +1,391 @@
+/*
+Theme Name:ammyfashions
+Theme URI: http://www.ammyfashions.com
+Author: Sankar
+Author URI: http://www.ammyfashions.com
+Description: Our default theme lets you create a responsive magazine website with a sleek, modern design.
+License: GNU General Public License v2 or later
+License URI: http://www.templatemela.com/license
+Tags: one-column, two-columns, right-sidebar, flexible-width, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: ammyfashions
+Template: harveststore
+*/
+
+@import url("../harveststore/style.css");
+
+.home .slider-loading {height:1078px; background:#ffffff url("images/megnor/loading.gif") no-repeat scroll center center;}
+#primary, .homepage #home_primary {width:922px;}
+#primary, .homepage #home_primary {margin-left:20px;}
+#secondary {width:256px;}
+.site-header {}
+.mega-menu ul li .sub li.mega-hdr a.mega-hdr-a,.primary-sidebar .woocommerce.widget_product_categories ul > li > a:hover {color:#d9c059;}
+.header-main {padding:0;}
+.header_left {margin:26px 0 0;}
+.mega-menu ul li a {padding:38px 22px;}
+.header-main {  text-align: right; }
+.singleproduct-sidebar {width:256px;}
+.woocommerce .single-product-full #content .product div.entry-summary {width:36%;}
+.navigation-menu {background:none !important; width:auto;}
+.home .site-header {position:absolute; top:0; z-index:9999; left: 0; right: 0; width:100%;background: rgba(41, 36, 32, 0.3);  transition: all 0.35s ease 0.1s; -moz-transition: all 0.35s ease 0.1s; -webkit-transition: all 0.35s ease 0.1s;} 
+
+.blog .site-header { position: static;}
+
+.admin-bar .site-header.fix-nav {
+	top:30px;
+	animation:fixefixedAnimAdmindAnim 1s ease 0s normal both 1 running;
+    -webkit-animation:fixefixedAnimAdmindAnim 1s ease 0s normal both 1 running;
+    -moz-animation:fixedAnimAdmin 1s ease 0s normal both 1 running;
+    -ms-animation:fixedAnimAdmin 1s ease 0s normal both 1 running;
+    -o-animation:fixedAnimAdmin 1s ease 0s normal both 1 running;
+}
+
+.site-header.fix-nav {
+	position:fixed;
+    top:0;
+    animation:fixedAnim 1s ease 0s normal both 1 running;
+    -webkit-animation:fixedAnim 1s ease 0s normal both 1 running;
+    -moz-animation:fixedAnim 1s ease 0s normal both 1 running;
+    -ms-animation:fixedAnim 1s ease 0s normal both 1 running;
+    -o-animation:fixedAnim 1s ease 0s normal both 1 running;
+    left: 0;
+    right: 0;	
+	z-index: 99999;
+}
+
+@-webkit-keyframes fixedAnim{0%{top:-90px;}100%{top:0;}}
+@-moz-keyframes fixedAnim{0%{top:-90px;}100%{top:0;}}
+@keyframes fixedAnim{0%{top:-90px;}100%{top:0;}}}
+
+@-webkit-keyframes fixedAnimAdmin{0%{top:-90px;}100%{top:30px;}}
+@-moz-keyframes fixedAnimAdmin{0%{top:-90px;}100%{top:30px;}}
+@keyframes fixedAnimAdmin{0%{top:-90px;}100%{top:30px;}}}
+
+.mega-menu #menu-menu > li > a::before {bottom:-5px; border-bottom:1px solid #d9c059; }
+.mega-menu li:hover > a, .mega-menu li.focus > a, .mega-menu .current_page_item > a {color:#d9c059;}
+.mega-menu ul li.mega-hover a, .mega-menu ul li a:hover {color:#d9c059;}
+.mega-menu ul li .sub {background:rgba(41, 36, 32, 0.9); border-color: #d9c059 #403934 #403934;
+    border-style: solid;
+    border-width: 2px;}
+.mega-menu ul li .sub a {color:#fff;}
+.mega-menu ul .sub li.mega-hdr li a:hover, .mega-menu ul li .sub-container.non-mega li a:hover {color:#d9c059;}
+.mega-menu li:hover > a, .mega-menu li.focus > a, .mega-menu .current_page_item > a {background:none;}
+
+.cat-item .sub-container.mega {left:auto !important; right:0 !important;}
+.header_right {margin: 38px 0 0;}
+#woo-products.shop{ padding:84px 180px 40px;}
+.header_cart .togg {position:static;}
+.header_cart {float: right;}
+.header_cart .togg #shopping_cart {background: transparent url("images/megnor/sprite-wc.png") no-repeat scroll 0 -77px; padding: 10px 20px;}
+.header_cart .shopping_cart .cart-contents {right:0; top:-4px; background: #d9c059 none repeat scroll 0 0; color:#000; border:none; height:22px; width:22px; line-height:20px;}
+.header_right #search-button {background: transparent url("images/megnor/sprite-wc.png") no-repeat scroll 10px -161px;float: right;padding: 10px 20px; cursor:pointer;}
+.header_cart .togg .widget.widget_shopping_cart {background: rgba(41, 36, 32, 0.9) none repeat scroll 0 0;
+    border-color: #d9c059 #403934 #403934;
+    border-style: solid;
+    border-width: 2px; top:100%;z-index:9995;}
+*::-moz-placeholder {color:#fff;}
+#primary-sidebar .woocommerce.widget_product_categories {background:#292420;}
+#primary-sidebar .woocommerce.widget_product_categories .widget-title::before {border-bottom:1px solid #d0d2d2;}
+.widget .widget-title::before {border-bottom:1px solid #d0d2d2;}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle {border:1px solid #292420;}
+.woocommerce ul.cart_list li, .woocommerce ul.product_list_widget li, .woocommerce-page ul.cart_list li, .woocommerce-page ul.product_list_widget li {color:#fff;}
+.header_right #search-button.open {
+    background: transparent url("images/megnor/sprite-wc.png") no-repeat scroll 10px -383px;
+}
+.header-search{
+	top: 100%; position: absolute;right:90px; left:auto;z-index:99;border:none; visibility:hidden; opacity:0; -webkit-transition-duration: 0.5s; transition-duration: 0.5s;
+	text-align:right;
+}
+.header-search.open {visibility:visible; opacity:1; -webkit-transition-duration: 0.5s; transition-duration: 0.5s;}
+.header-search input[type="text"], .header-search input[type="search"] {width:100%; font-size:14px; background:#433c36; border:5px solid #201815; float:none; width:250px; font-style:normal; color:#fff;}
+.header-main {position:relative;}
+.header-search .woocommerce-product-search input[type="submit"], .header-search .search-form #searchsubmit {display:none;}
+#login-button
+{
+	background: transparent url("images/megnor/sprite-wc.png") no-repeat scroll 16px -118px;
+    float: right;
+    padding: 10px 30px;
+	cursor:pointer;
+}
+.header_logout {
+	background: rgba(41, 36, 32, 0.9) none repeat scroll 0 0;
+    border-color: #d9c059 #403934 #403934;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    display: none;
+    position: absolute;
+    right: 45px;
+	padding:10px;
+    top: 100%;
+    width: 150px;
+	text-align:left;
+    z-index: 999;
+	border-top:2px solid #d9c059;
+}
+.header_logout a {border:none;   
+    display: block;
+    padding: 8px 4px;}
+.breadcrumb_last, .woocommerce .woocommerce-breadcrumb span, .woocommerce-page .woocommerce-breadcrumb span {color:#151a1d;}
+.custom-testimonial .testmonial-image {border:none;}
+.custom-testimonial .testimonial-content {color:#fff;}
+.custom-testimonial .testimonial-title {background:none; color:#ebd164; font-size:16px; margin:0;}
+.custom-testimonial .testimonial-designation {font-size: 12px;}
+.custom-testimonial .testimonial-designation > a {color:#292420;}
+.flex-control-paging li a.flex-active::after, .flex-control-paging li:hover a:after, .sticky .entry-date .day{background:#d9c059;} 
+.flex-control-paging li a {border:2px solid #fff;}
+.flex-control-paging li a.flex-active, .flex-control-paging li a:hover { border-color:#fff;}
+.flex-control-paging li a.flex-active::after, .flex-control-paging li:hover a:after, .sticky .entry-date .day > a{background:#d9c059;} 
+.wpb_wl_preview_area .wpb_wl_preview:hover::before, .woocommerce ul.products li.product .yith-wcwl-add-to-wishlist .add_to_wishlist:hover::before, .woocommerce-page ul.products li.product .yith-wcwl-add-to-wishlist .add_to_wishlist:hover::before, .woocommerce ul.products li.product .yith-wcwl-wishlistexistsbrowse.show a:hover::before, .woocommerce-page ul.products li.product .yith-wcwl-wishlistexistsbrowse.show a:hover::before, .woocommerce ul.products li.product .yith-wcwl-wishlistaddedbrowse.show a:hover::before, .woocommerce-page ul.products li.product .yith-wcwl-wishlistaddedbrowse.show a:hover:before,.woocommerce .products .star-rating::before, .woocommerce-page .products .star-rating::before, .woocommerce .products .star-rating span, .woocommerce-page .products .star-rating span,.woocommerce ul.products li.product .yith-wcqv-button:hover::before, .woocommerce-page ul.products li.product .yith-wcqv-button:hover:before, .fa, .tm_product_nav_buttons .previous a:hover, .tm_product_nav_buttons .next a:hover, .options li a:active, .options li a.selected, h1.entry-title a:hover,.sticky .entry-date .icon::before {color:#d9c059;}
+
+.woocommerce ul.products li.product .product_type_simple, .woocommerce-page ul.products li.product .product_type_simple, .woocommerce ul.products li.product .product_type_grouped, .woocommerce-page ul.products li.product .product_type_grouped, .woocommerce ul.products li.product .product_type_external, .woocommerce-page ul.products li.product .product_type_external, .woocommerce ul.products li.product .product_type_variable, .woocommerce-page ul.products li.product .product_type_variable{
+	background:rgba(0, 0, 0, 0) url("images/megnor/addtocart.png") no-repeat scroll center -52px;
+}
+.woocommerce ul.products li.product .product_type_simple:hover, .woocommerce-page ul.products li.product .product_type_simple:hover, .woocommerce ul.products li.product .product_type_grouped:hover, .woocommerce-page ul.products li.product .product_type_grouped:hover, .woocommerce ul.products li.product .product_type_external:hover, .woocommerce-page ul.products li.product .product_type_external:hover, .woocommerce ul.products li.product .product_type_variable:hover, .woocommerce-page ul.products li.product .product_type_variable:hover 
+{
+	background-position:center 10px;
+}
+.woocommerce ul.products li.product .image-block, .woocommerce-page ul.products li.product .image-block {display:block;}
+.shortcode-title {margin:0 0 20px;}
+.simple-type.small-title::before {}
+#woo-products .owl-theme .owl-controls .owl-buttons div {top:-68px;}
+.woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img {width:auto; max-width:100%; margin:0 auto;}
+.woocommerce ul.products li.product .secondary-image, .woocommerce-page ul.products li.product .secondary-image {width: auto; right:0;}
+.woocommerce ul.products li.product .yith-wcqv-button, .woocommerce-page ul.products li.product .yith-wcqv-button {}
+.woocommerce span.onsale, .woocommerce-page span.onsale {color:#201c18;}
+.subbanner-inner {float: left; width: 50%;}
+.static-wrapper {left:4px; right:0; text-align:center; bottom:155px;}
+.cms-banner-inner .static-inner:before{display: none;}
+.cms-banner1, .cms-banner2,.cms-banner3 {margin:0;}
+
+.cms-banner-inner .hover-div {-webkit-transition: all 0.35s 0.1s ease-in-out;
+	  -moz-transition: all 0.35s 0.1s ease-in-out;
+	  transition: all 0.35s 0.1s ease-in-out;
+	 background: rgba(41, 36, 32, 0.3) none repeat scroll 0 0; opacity: 0;
+	  }
+.cms-banner-inner:hover .hover-div {
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	-webkit-transition: all 0.35s 0.1s ease-in-out;
+	  -moz-transition: all 0.35s 0.1s ease-in-out;
+	  transition: all 0.35s 0.1s ease-in-out;
+}
+
+.cms-banner-inner:hover .static-wrapper{
+    transform: scale(1);
+	opacity:1;
+    transition: all 0.35s ease-in-out 0.1s;
+	 -moz-transition: all 0.35s ease-in-out 0.1s; 
+	 -webkit-transition: all 0.35s ease-in-out 0.1s;
+}
+
+.cms-banner-inner:hover {
+    transform: scale(1.1);
+    transition: all 0.35s ease-in-out 0.1s;
+	 -moz-transition: all 0.35s ease-in-out 0.1s; 
+	 -webkit-transition: all 0.35s ease-in-out 0.1s;
+}
+
+.cms-banner-item .static-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+	top:auto;
+	opacity:0;
+	transform: scale(1.5);
+    transition: all 0.35s ease-in-out 0.1s;
+	 -moz-transition: all 0.35s ease-in-out 0.1s; 
+	 -webkit-transition: all 0.35s ease-in-out 0.1s;
+	  padding: 20px;
+}
+.cms-banner-inner {display: block;   
+    text-align:center;
+	background-size: cover; 
+	background-position: center center;
+	  -webkit-transition: all 0.35s 0.1s ease-in-out;
+	  -moz-transition: all 0.35s 0.1s ease-in-out;
+	  transition: all 0.35s 0.1s ease-in-out;
+}
+.cms-banner-item .static-text {display: block;}
+.cms-banner-item .text3.static-text:hover{
+    background: #d9c059;
+ 	border-color: #d9c059;
+}
+.cms-banner-item .text3.static-text{
+    background: transparent;
+    display: inline-block;
+	border: 1px solid #ffffff;
+    color: #ffffff;
+    opacity: 1 !important;
+    padding: 6px 20px;
+    margin-top: 25px;
+	transform: none;
+	-moz-transform: none; -webkit-transform: none;
+    position: static;
+}
+.cms-banner-item .text2.static-text {
+    color: #d9c059;
+    font-family: "Roboto",Arial,Sans-seriff,Helevtica;
+    font-size: 22px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.cms-banner-item .text1.static-text {
+    color: #ffffff;
+    font-family: "Arizonia",Arial,sans-serif,Helvetica;
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: capitalize;
+	line-height: 80px;
+}
+
+.text-banner .cms-banner-inner .hover-div {display: none;}
+.text-banner.cms-banner-item .static-wrapper {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 65px 50px;
+    background: #fff;
+	text-align: left;
+	transform: none;
+}	
+
+.text-banner.cms-banner-item .text3.static-text:hover{background: #d9c059;
+ 	border-color: #d9c059; color: #201c18; }
+.text-banner.cms-banner-item .text3.static-text{ margin:0;background: transparent;
+    border: 2px solid #8e8b86;
+    color: #8e8b86;}
+
+.text-banner.cms-banner-item .cms-banner-inner:hover, .text-banner .cms-banner-item .static-wrapper {transform: none;}
+.text-banner.cms-banner-item .text1.static-text:before {
+    border-bottom: 1px solid #d9c059;
+    bottom: -18px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    text-align: left;
+    width: 34px;
+}
+.text-banner.cms-banner-item .text1.static-text {
+    color: #3f3f3f;
+    font-family: "Open Sans",sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    text-transform: capitalize;
+	line-height:30px;
+}
+
+.text-banner.cms-banner-item .text2.static-text  {
+    color: #201c18;
+    float: left;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.owl-theme .owl-controls .owl-buttons div {border:1px solid #e8e8e8;}
+.testimonials-container .owl-theme .owl-controls .owl-buttons div {border:1px solid #FFFFFF; background: transparent;  padding: 5px;  color: #fff;}
+.testimonials-container.custom-testimonial .owl-theme .owl-controls .owl-buttons div.owl-prev {left: 0; right: auto;}
+.testimonials-container.custom-testimonial .owl-theme .owl-controls .owl-buttons div.owl-next {right: 0; left: auto;}
+.testimonials-container {padding:0;}
+.testimonials-container.custom-testimonial .owl-theme .owl-controls .owl-buttons div.owl-prev:hover,
+.testimonials-container.custom-testimonial .owl-theme .owl-controls .owl-buttons div.owl-next:hover { background: #d9c059;border-color: #d9c059;}
+.woocommerce #content div.product .woocommerce-tabs .panel, .woocommerce div.product .woocommerce-tabs .panel, .woocommerce-page #content div.product .woocommerce-tabs .panel, .woocommerce-page div.product .woocommerce-tabs .panel {border-top-color: #d9c059;}
+.testimonials-container.custom-testimonial .owl-theme .owl-controls .owl-buttons div.owl-prev:hover:before,
+.testimonials-container.custom-testimonial .owl-theme .owl-controls .owl-buttons div.owl-next:hover:before{color: #201c18;}
+
+.testimonials-container.custom-testimonial .owl-buttons { width: 80px;}
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a  {background:#d9c059;}
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce #content div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce-page div.product .woocommerce-tabs ul.tabs li a:hover {
+    background-color: #d9c059;
+    border-color: #d9c059;
+	}
+
+.reset_variations {padding:5px 0;}
+.footer-top-cms {border-bottom: 1px solid #292420;}
+.footertop-band .simple-type.small-title {color:#fff;}
+.footertop-band .custom-text-container .text {font-size:14px;}
+.footertop-band .simple-type.small-title::before {border-right:1px solid #fff;}
+.newsletter.newsletter-subscription.main-ul {background: #423b36 none repeat scroll 0 0;
+    float:right;
+    margin: -10px 0 0;
+    padding: 9px;
+    vertical-align: top;
+    width: auto;}
+	.newsletter tr {margin:0;}
+.footer-bottom {background:#292420;}
+.site-footer .newsletter .newsletter-submit {margin:0 0 0 5px;}
+.site-footer .newsletter table, .site-footer .newsletter td {width:auto;}
+.site-footer .newsletter .newsletter-submit { background: #d9c059 url("images/megnor/sprite-wc.png") repeat scroll 5px -716px;}
+.site-footer .newsletter .newsletter-submit:hover {background:#fff url("images/megnor/sprite-wc.png") repeat scroll 5px -746px;}
+.site-footer .newsletter td::before {color:#5e5e5e;}
+.footer-top-cms .service-content.style-2 .icon:before, .footer-widget h3.widget-title:before, .simple-type.small-title:before,.center .simple-type.small-title:before {border-color:#b9babb;}
+.follow-us a:hover i {color:#d9c059;}
+#footer-widget-area .fourth-widget {background:#292420 none repeat scroll 0 0;}
+.widgets-footercontact .fa, .fa-chevron-left:before, .follow-us a.linkedin:hover i,.post-navigation a.next-post .fa,.primary-sidebar .widget ul li:hover:before,.entry-summary .yith-wcwl-wishlistexistsbrowse.show > a:hover, .woocommerce a.compare.button:hover, .entry-summary .add_to_wishlist:hover {color:#d9c059;}
+#to_top {background-color:#d9c059;}
+
+/*pagination */
+
+.woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li span.current,.paging-navigation a:hover, .paging-navigation .page-numbers.current {
+    background: #eeeeee none repeat scroll 0 0;
+    border: 1px solid #eeeeee;
+    color: #201c18;
+}
+.paging-navigation a:hover .fa { color: #201c18;}
+/*pagination */
+
+/* Shortcodes */
+
+.style3 #tab ul li a.current, .style3 #tab ul li a:hover,.address-label, .address-text .fa, .fa-quote-left:before, .fa-quote-right:before,.options li a:hover, .header_cart .togg .widget.widget_shopping_cart .mini_cart_item a:hover,.site-content .entry-meta span:hover .fa,.entry-meta span:hover i.fa, .entry-meta span:hover a, .entry-meta span:hover a::before{color: #d9c059;}
+.style1 #tab ul li a.current, .style1 #tab ul li a:hover,.blockquote-inner.style-2 blockquote.blockquote,.links a.icon:hover, .gallery-zoom .icon:hover, .gallery-redirect .icon:hover, .blog-posts-content .block_hover .icon:hover{background-color: #d9c059;}
+.vertical_tab.style2 #tab ul li a.current, .vertical_tab.style2 #tab ul li a:hover{border-left-color: #d9c059;}
+.horizontal_tab.style2 #tab ul li a.current, .horizontal_tab.style2 #tab ul li a:hover{border-top-color: #d9c059;}
+.blockquote-inner.style-4 blockquote.blockquote,.links a.icon:hover, .gallery-zoom .icon:hover, .gallery-redirect .icon:hover, .blog-posts-content .block_hover .icon:hover,.upsells.products > h2::before, .related.products h2::before, .cross-sells > h2::before { border-color: #d9c059; }
+.blockquote-inner.style-1 blockquote.blockquote {
+    background: transparent url("images/megnor/quote.png") no-repeat scroll 0 5px;
+    border-right: 5px solid #d9c059;
+}
+
+/* Shortcodes */
+
+/* buttons */
+
+#primary .entry-summary .single_add_to_cart_button,
+.widget input[type="button"]:hover, .widget input[type="button"]:focus, .widget input[type="reset"]:hover, .widget input[type="reset"]:focus, .widget input[type="submit"]:hover, .widget input[type="submit"]:focus, a.button:hover, a.button:focus, button:hover, button:focus, .contributor-posts-link:hover, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, .calloutarea_button a.button:hover, .calloutarea_button a.button:focus, .button_content_inner a:hover, .button_content_inner a:focus, .woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce #content input.button.disabled, .woocommerce #content input.button:disabled, .woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce-page #content input.button.disabled, .woocommerce-page #content input.button:disabled, .woocommerce-page #respond input#submit.disabled, .woocommerce-page #respond input#submit:disabled, .woocommerce-page a.button.disabled, .woocommerce-page a.button:disabled, .woocommerce-page button.button.disabled, .woocommerce-page button.button:disabled, .woocommerce-page input.button.disabled, .woocommerce-page input.button:disabled,.woocommerce .wc-proceed-to-checkout .checkout-button, .woocommerce-page .wc-proceed-to-checkout .checkout-button,.entry-content-date .icon,.team-posts-content.posts-content .container:hover .staff-content {
+    background-color: #201c18;
+    border-color: #201c18;
+}
+
+.woocommerce-page ul.products.list li.product h3, .woocommerce ul.products.list li.product h3, .woocommerce-page ul.products.list li.product div[itemprop="description"], .woocommerce ul.products.list li.product div[itemprop="description"], .woocommerce-page ul.products.list li.product .price, .woocommerce ul.products.list li.product .price, .woocommerce-page ul.products.list li.product.gridlist-buttonwrap, .woocommerce ul.products.list li.product.gridlist-buttonwrap {   width: 67%;}
+.woocommerce ul.products.list li.product .star-rating, .woocommerce-page ul.products.list li.product .star-rating {  right: 10px; }
+.woocommerce .wc-proceed-to-checkout .checkout-button:hover, .woocommerce-page .wc-proceed-to-checkout .checkout-button:hover {
+    border: 1px solid #201c18;
+    color: #201c18;
+}
+.entry-summary .sku_wrapper, .entry-summary .variations label, .entry-summary .add_to_wishlist {color: #201c18;}
+
+/* buttons */
+
+/* message Box */
+.woocommerce .woocommerce-info, .woocommerce-page .woocommerce-info {
+    border-top: 2px solid #b2ada9;
+}
+
+.woocommerce .woocommerce-info:before, .woocommerce-page .woocommerce-info::before {   background-color: #b2ada9; }
+.woocommerce .woocommerce-error::before, .woocommerce-page .woocommerce-error::before,.woocommerce #yith-wcwl-popup-message, .woocommerce-page #yith-wcwl-popup-message, .home #yith-wcwl-popup-message {   background-color: #d9c059; border-color: #d9c059; }
+.woocommerce .woocommerce-error, .woocommerce-page .woocommerce-error {    border-top: 3px solid #d9c059;
+}
+
+/* message Box */
